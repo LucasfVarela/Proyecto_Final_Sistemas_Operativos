@@ -17,16 +17,19 @@ Antes de ejecutar el script, asegúrate de tener instaladas las siguientes depen
 ### Herramientas Requeridas
 ```bash
 # Para backups en Google Drive
-sudo apt install gdrive
+  sudo apt install gdrive
 
 # Para análisis de virus
-sudo apt install clamav clamav-daemon
+  sudo apt install clamav clamav-daemon
 
 # Para monitoreo de archivos
-sudo apt install inotify-tools
+  sudo apt install inotify-tools
 
 # Para envío de emails
-sudo apt install msmtp
+  sudo apt install msmtp
+# Para información de GPU NVIDIA
+  nvidia-utils
+
 ```
 
 ### Drivers NVIDIA
