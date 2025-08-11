@@ -134,13 +134,13 @@ YYYY-MM-DD HH:MM:SS - Mensaje de la operación
 ### Cambiar Carpeta de Descargas
 Modifica la variable `DOWNLOAD_DIR` en la línea 3:
 ```bash
-DOWNLOAD_DIR="/ruta/a/tu/carpeta"
+DOWNLOAD_DIR="/Descargas"
 ```
 
 ### Cambiar ID de Carpeta Google Drive
 Modifica el ID en la función `Generar_back_up()`:
 ```bash
-gdrive upload --parent "TU_ID_DE_CARPETA" "$carpeta"
+gdrive upload --parent "Archivo" "$carpeta"
 ```
 
 ## 🐛 Resolución de Problemas
