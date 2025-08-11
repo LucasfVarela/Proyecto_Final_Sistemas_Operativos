@@ -27,6 +27,7 @@ Antes de ejecutar el script, asegúrate de tener instaladas las siguientes depen
 
 # Para envío de emails
   sudo apt install msmtp
+
 # Para información de GPU NVIDIA
   nvidia-utils
 
