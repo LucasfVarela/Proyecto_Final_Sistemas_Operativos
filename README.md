@@ -63,9 +63,9 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt
 account gmail
 host smtp.gmail.com
 port 587
-from tu_email@gmail.com
+from email@gmail.com
 auth on
-user tu_email@gmail.com
+user email@gmail.com
 password tu_contraseña_de_aplicacion
 ```
 
